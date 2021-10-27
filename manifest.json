@@ -1,0 +1,22 @@
+{
+  "name": "PennyRoyal AdBlocker",
+  "version": "1.0",
+  "description": "a sample adBlocker",
+  "permission": ["webRequest", "webRequestBlocking", "<all_urls>"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons" : {
+        "16": "/images/monstera_128.png",
+        "48": "/images/monstera_48.png",
+        "128": "/images/monstera_16.png"
+    },
+    "page_action": {
+      "default_icon": {
+        "16": "/images/leaf_128.png",
+        "48": "/images/leaf_48.png",
+        "128": "/images/leaf_16.png"
+      }
+    },
+  "manifest_version": 2
+}
