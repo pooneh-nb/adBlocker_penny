@@ -2,7 +2,7 @@
   "name": "PennyRoyal AdBlocker",
   "version": "1.0",
   "description": "a sample adBlocker",
-  "permission": ["webRequest", "webRequestBlocking", "<all_urls>"],
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
   "background": {
     "scripts": ["background.js"]
   },
